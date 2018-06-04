@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "lint-all": "ng lint grand-material && ng lint grand-material-e2e",
+    "lint-fix": "ng lint grand-material --fix && ng lint grand-material-e2e --fix"
   },
   "private": true,
   "dependencies": {
